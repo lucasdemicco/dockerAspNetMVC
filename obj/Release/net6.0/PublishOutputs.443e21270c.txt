@@ -1,0 +1,7 @@
+C:\Users\camil\Desktop\dockerMvc\dist\dockerMvc.exe
+C:\Users\camil\Desktop\dockerMvc\dist\appsettings.Development.json
+C:\Users\camil\Desktop\dockerMvc\dist\appsettings.json
+C:\Users\camil\Desktop\dockerMvc\dist\dockerMvc.dll
+C:\Users\camil\Desktop\dockerMvc\dist\dockerMvc.deps.json
+C:\Users\camil\Desktop\dockerMvc\dist\dockerMvc.runtimeconfig.json
+C:\Users\camil\Desktop\dockerMvc\dist\dockerMvc.pdb
