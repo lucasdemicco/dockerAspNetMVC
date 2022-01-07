@@ -1,11 +1,18 @@
+using dockerMvc.Data;
 using dockerMvc.Models;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddTransient<IRepository, TesteRepository>();
+var mySqlConn = builder.Configuration.GetConnectionString("Default");
+
+builder.Services.AddDbContext<ContextApp>( options =>
+    options.UseMySql(ServerVersion.AutoDetect(mySqlConn)));
+
+builder.Services.AddTransient<IRepository, ProdutoRepository>();
 builder.Services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Latest);
 
 var app = builder.Build();
@@ -20,6 +27,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+PopulaDb.IncluiDadosDb(app);
 
 app.UseRouting();
 
