@@ -13,7 +13,8 @@ var password = builder.Configuration["DBPASSWORD"] ?? "root";
           
 builder.Services.AddDbContext<ContextApp>(options =>
     options.UseMySql($"server={host};userid=root;pwd={password};"
-        + $"port={port};database=produtosdb", new MySqlServerVersion(new Version())));
+        + $"port={port};database=produtosdb", new MySqlServerVersion(new Version()),
+         options => options.EnableRetryOnFailure()));
 
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 builder.Services.AddTransient<IRepository, ProdutoRepository>();
