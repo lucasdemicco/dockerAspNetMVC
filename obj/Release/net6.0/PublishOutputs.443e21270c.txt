@@ -1,9 +1,14 @@
 C:\Users\camil\Desktop\dockerMvc\dist\dockerMvc.exe
+C:\Users\camil\Desktop\dockerMvc\dist\dist\dist\web.config
 C:\Users\camil\Desktop\dockerMvc\dist\dist\web.config
 C:\Users\camil\Desktop\dockerMvc\dist\appsettings.Development.json
 C:\Users\camil\Desktop\dockerMvc\dist\appsettings.json
 C:\Users\camil\Desktop\dockerMvc\dist\dist\appsettings.Development.json
 C:\Users\camil\Desktop\dockerMvc\dist\dist\appsettings.json
+C:\Users\camil\Desktop\dockerMvc\dist\dist\dist\appsettings.Development.json
+C:\Users\camil\Desktop\dockerMvc\dist\dist\dist\appsettings.json
+C:\Users\camil\Desktop\dockerMvc\dist\dist\dist\dockerMvc.deps.json
+C:\Users\camil\Desktop\dockerMvc\dist\dist\dist\dockerMvc.runtimeconfig.json
 C:\Users\camil\Desktop\dockerMvc\dist\dist\dockerMvc.deps.json
 C:\Users\camil\Desktop\dockerMvc\dist\dist\dockerMvc.runtimeconfig.json
 C:\Users\camil\Desktop\dockerMvc\dist\dockerMvc.dll

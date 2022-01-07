@@ -39,3 +39,8 @@ C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\MySqlConnector.dll
 C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\Pomelo.EntityFrameworkCore.MySql.Design.dll
 C:\Users\camil\Desktop\dockerMvc\obj\Release\net6.0\dockerMvc.csproj.CopyComplete
+C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\web.config
+C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\appsettings.Development.json
+C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\appsettings.json
+C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dockerMvc.deps.json
+C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dockerMvc.runtimeconfig.json
