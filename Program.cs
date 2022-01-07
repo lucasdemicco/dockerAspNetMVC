@@ -10,12 +10,10 @@ builder.Services.AddControllersWithViews();
 var host = builder.Configuration["DBHOST"] ?? "localhost";
 var port = builder.Configuration["DBPORT"] ?? "3306";
 var password = builder.Configuration["DBPASSWORD"] ?? "numsey";
-
-var connectionString = $"server={host};userid=root;pwd={password};"
-        + $"port={port};database=produtosdb";
-            
+          
 builder.Services.AddDbContext<ContextApp>(options =>
-    options.UseMySql(ServerVersion.AutoDetect(connectionString)));
+    options.UseMySql($"server={host};userid=root;pwd={password};"
+        + $"port={port};database=produtosdb", new MySqlServerVersion(new Version())));
 
 builder.Services.AddTransient<IRepository, ProdutoRepository>();
 builder.Services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Latest);
