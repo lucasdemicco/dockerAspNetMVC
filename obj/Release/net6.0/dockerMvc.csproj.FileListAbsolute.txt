@@ -64,3 +64,8 @@ C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dist\dist\dist\dis
 C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dist\dist\dist\dist\appsettings.json
 C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dist\dist\dist\dist\dockerMvc.deps.json
 C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dist\dist\dist\dist\dockerMvc.runtimeconfig.json
+C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dist\dist\dist\dist\dist\web.config
+C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dist\dist\dist\dist\dist\appsettings.Development.json
+C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dist\dist\dist\dist\dist\appsettings.json
+C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dist\dist\dist\dist\dist\dockerMvc.deps.json
+C:\Users\camil\Desktop\dockerMvc\bin\Release\net6.0\dist\dist\dist\dist\dist\dist\dist\dockerMvc.runtimeconfig.json

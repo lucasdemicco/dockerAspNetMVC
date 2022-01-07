@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 
 var host = builder.Configuration["DBHOST"] ?? "localhost";
 var port = builder.Configuration["DBPORT"] ?? "3306";
-var password = builder.Configuration["DBPASSWORD"] ?? "numsey";
+var password = builder.Configuration["DBPASSWORD"] ?? "root";
           
 builder.Services.AddDbContext<ContextApp>(options =>
     options.UseMySql($"server={host};userid=root;pwd={password};"
